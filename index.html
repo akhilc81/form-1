@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <form action="" class="container-fluid" id="form">
+        <fieldset style="border-color:blue ;max-width:600px">
+            <legend>Sign up</legend>
+            <br>
+            <label for="Username" id="a1">name</label>
+            <br>
+            <input type="text" placeholder="Username" id="a5">
+            <br>
+            <p id="a2"></p>
+            <br>
+            <label for="Email" id="a6">Email id</label>
+            <br>
+            <input type="text" placeholder="Email" id="a7">
+            <br>
+            <p id="a3"></p>
+            <br>
+            <label for="password" id="a8">password</label>
+            <br>
+            <input type="password" placeholder="password" id="a9">
+            <br>
+            <p id="a4"></p>
+            <br>
+            <input type="button" value="subimt" onclick="validetion()">
+            <input type="reset" value="Reset" onclick="reset()" id="reset">
+        </fieldset>
+    </form>
+    <br>
+    <br>
+    <br>
+        <div id="msg"></div>
+        <table border="1px" style="border-color:blue ;width:250px;color: red;" class="container-fluid" id="table" >
+            <tr>
+                <th>Name</th>
+                <th>Email id</th>
+                <th>password</th>
+                <th>Action</th>
+            </tr>
+        </table>
+    <script src="js/index.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+</body>
+</html>
